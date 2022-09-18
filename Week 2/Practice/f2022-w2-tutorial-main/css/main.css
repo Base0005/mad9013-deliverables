@@ -1,0 +1,163 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Helvetica', sans-serif;
+}
+
+
+body {
+  margin: 0;
+}
+
+h3 {
+  color: #0e9003;
+}
+
+a {
+  color: #0e9003;
+}
+
+a:hover {
+  color: hsl(115, 96%, 15%);
+}
+
+.masthead {
+  background-color: #0e8003;
+  padding: 1rem;
+}
+
+.masthead a {
+  color: #fff;
+}
+
+.masthead a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo h1,
+.logo strong {
+  font-size: 2rem;
+  margin: 0;
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.banner {
+  padding: 5rem 1rem;
+  background-color: rgba(14, 129, 3, 0.25);
+}
+
+.banner .title {
+  font-size: 3rem;
+  margin: 0 0 1.5rem;
+}
+
+.btn {
+  color: #fff;
+  background-color: #0e9003;
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: hsl(115, 96%, 15%);
+  color: #fff;
+}
+
+section {
+  padding: 1rem;
+}
+
+.cards {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.card img {
+  width: 100%;
+}
+
+.more-posts {
+  font-weight: bold;
+  color: #0e9003;
+}
+
+.about-author {
+  padding: 5rem 1rem;
+  background-color: rgba(14, 129, 3, 0.25);
+}
+
+.about-author h2 {
+  margin: 0 0 1.5rem;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-footer,
+.sub-footer {
+  padding: 1rem;
+}
+
+.sub-footer {
+  background-color: #111;
+}
+
+/* - - - - - - - - - - Post Page - - - - - - - - - - */
+
+.banner-post {
+  background-image: url('../images/post-1-banner.jpg');
+  background-size: cover;
+  color: #fff;
+}
+
+.content,
+.tags,
+.author-info {
+  padding: 1rem;
+}
+
+.content img {
+  width: 100%;
+}
+
+.author-info {
+  background-color: rgba(14, 129, 3, 0.25);
+}
