@@ -1,0 +1,43 @@
+.container{
+    font-family: Roboto, sans-serif;
+    max-width: 700px;
+    width: min(100%);
+    margin: 4em auto;
+}
+
+.h1{
+    color:#36BF7F;
+    font-size: 50px;
+}
+
+.h2{
+font-size: 40px;
+}
+
+.h3{
+    color:#36BF7F;
+    font-size: 32px;
+    margin-bottom: 0%;
+}
+
+.h4{
+    color:#d96666;
+    font-size: 27px;
+    padding-top: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.h5{
+font-size: 20px;
+margin-top: 0%;
+}
+
+.h6{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.link{
+    color:#36BF7F ;
+}
