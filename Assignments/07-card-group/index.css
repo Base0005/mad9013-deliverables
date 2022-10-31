@@ -1,0 +1,201 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+ul,
+ol,
+dl,
+dd {
+  margin: 0 0 0 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html{
+    font-family:'Roboto', sans-serif;
+    ;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+
+html{
+    line-height: 1.5;
+    font-family:Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  margin:0 0 0 0; 
+}
+
+/* A elements that don't have a class get default styles */
+a {
+  text-decoration-skip-ink: auto;
+  color:#36bf7f;
+}
+
+A:hover,
+a:focus{
+  color:#D96666;
+}
+
+/* Make images easier to work with */
+img,
+picture,
+svg {
+  max-width: 100%;
+}
+
+svg{
+    fill: currentColor;
+}
+
+svg:not(:root){
+    overflow: hidden;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    }
+}
+
+.container {
+    width: min(65em, 100%);
+    margin: 0 0 0 0;
+}
+
+
+/*----------------Start Of Assignment----------------*/
+
+body{
+  font-family:sans-serif;
+  background-color: #def4e9;
+}
+
+.card__all{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.card__group{
+  margin-bottom: 5px;
+  font-size: 1.246rem;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 15px;
+}
+
+.card{
+  background-color: white;
+  border: #394A59 solid;
+  border-radius: 5px;
+  box-shadow: 0 .25rem .5rem #0002;
+  
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.card:hover{
+  box-shadow: 0 .25rem .75rem #0002;
+}
+
+.card__title{
+color: #36bf7f;
+margin-left: 15px;
+}
+
+.card__text{
+  padding-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+.card__btn{
+  background-color: #394A59;
+  border: none;
+  border-radius:5px;
+  color: white;
+  padding: 10px 25px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.card__btn:hover{
+  background-color: #59758d;
+}
+
+@media only screen and (min-width:45em){
+  .card__group{
+    margin-bottom: 5px;
+    font-size: 1.575rem;
+  }
+  
+  .cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+}
+
+@media only screen and (min-width:60em){
+  .card__group{
+    margin-bottom: 5px;
+    font-size: 2.041rem;
+  }
+  
+  .cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 15px;
+    column-gap: 15px;
+  }
+}
